@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "SEO Finder",
+  "description": "Review your SEO score",
+  "version": "1.0",
+  "default_locale": "en",
+  "icons": {},
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; script-src 'self' ; style-src 'unsafe-inline'; connect-src *; img-src * data:;"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": [
+    "webRequest",
+    "storage"
+  ]
+}

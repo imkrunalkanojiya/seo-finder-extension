@@ -1,0 +1,1340 @@
+{
+	"extensionName": {
+		"message": "SEO Finder"
+	},
+	"extensionDescription": {
+		"message": "SEO Finder finds SEO, speed & security problems before your website visitors do"
+	},
+	"SEOChecker": {
+		"message": "SEO Finder"
+	},
+	"byKeywordsEverywhere": {
+		"message": "by Keywords Everywhere"
+	},
+	"Main": {
+		"message": "Main"
+	},
+	"CrawlerRestrictions": {
+		"message": "Crawler restrictions"
+	},
+	"InternalPageDepthLimit": {
+		"message": "How many pages deep do you want to crawl?"
+	},
+	"CrawlStartPageOnly": {
+		"message": "Start page only"
+	},
+	"PagesOneLinkFromStartPage": {
+		"message": "All pages one link away from start page"
+	},
+	"PagesTwoLinksFromStartPage": {
+		"message": "All pages two links away from start page"
+	},
+	"PagesThreeLinksFromStartPage": {
+		"message": "All pages three links away from start page"
+	},
+	"Unrestricted": {
+		"message": "No limits on page depth"
+	},
+	"UrlLimit": {
+		"message": "Max URLs to crawl"
+	},
+	"CrawlFoldersAboveStartUrl": {
+		"message": "Allow crawl of folders above the starting folder?"
+	},
+	"CrawlSubdomainsOfStartURL": {
+		"message": "Allow crawl of subdomains of URL entered?"
+	},
+	"UrlPatternsToExcludeFromCrawl": {
+		"message": "URL patterns to exclude from crawl"
+	},
+	"textareaUrlPatternsPlaceholder": {
+		"message": "Enter one pattern per line"
+	},
+	"UrlTypeChecks": {
+		"message": "URL type checks"
+	},
+	"SpeedUpCrawlsBySkipUrlCheck": {
+		"message": "Disable URLs you do not want to crawl below. This will speed up the crawls."
+	},
+	"CrawlNoIndexedPages": {
+		"message": "Crawl No-Indexed Pages"
+	},
+	"CheckInternalLinks": {
+		"message": "Crawl Internal Links?"
+	},
+	"CheckExternalLinks": {
+		"message": "Crawl External links?"
+	},
+	"CheckImages": {
+		"message": "Crawl & Check Images?"
+	},
+	"CheckJavaScript": {
+		"message": "Crawl & Check JavaScript?"
+	},
+	"CheckCss": {
+		"message": "Crawl & Check CSS?"
+	},
+	"CheckRobotFile": {
+		"message": "Crawl & Check robots.txt files?"
+	},
+	"Check404Pages": {
+		"message": "Crawl & Check 404 pages?"
+	},
+	"UserAgent": {
+		"message": "Enter the UserAgent for the crawl below"
+	},
+	"FetchBehaviour": {
+		"message": "Fetch behaviour"
+	},
+	"devtoolUseWithXRequestedHeader": {
+		"message": "When fetching URLs, SEO Checker sends the browser&#39;s default User-Agent header. To change this, use Chrome DevTools. SEO Checker also sends an X-Requested-With header starting with SEO Checker so you can detect it."
+	},
+	"ResponseTimeout": {
+		"message": "Maximum time to wait for URL response (ms) (1000ms = 1 second)"
+	},
+	"MaxUrlPerSecond": {
+		"message": "Maximum URLs to crawl per second"
+	},
+	"RestoreDefaultSettings": {
+		"message": "Restore all settings to their default"
+	},
+	"CrawlerSettingsRestoredMsg": {
+		"message": "The crawler settings have been restored to their default values"
+	},
+	"Dashboard": {
+		"message": "Home"
+	},
+	"SEO": {
+		"message": "SEO"
+	},
+	"Speed": {
+		"message": "Speed"
+	},
+	"Security": {
+		"message": "Security"
+	},
+	"Explore": {
+		"message": "Explore"
+	},
+	"SeoAnalysis": {
+		"message": "SEO Analysis"
+	},
+	"SpeedAnalysis": {
+		"message": "Speed Analysis"
+	},
+	"SecurityAnalysis": {
+		"message": "Security Analysis"
+	},
+	"ExploreWebsite": {
+		"message": "Explore Website"
+	},
+	"WebsiteAuditReport": {
+		"message": "Audit Report"
+	},
+	"ExportToCSV": {
+		"message": "Export All Data to CSV file"
+	},
+	"IsYourWebsiteFastSecureSeoFriendly": {
+		"message": "Check your website's SEO, Speed and Security"
+	},
+	"inputWebsiteUrlPlaceholder": {
+		"message": "Enter your website's URL here e.g. www.example.com"
+	},
+	"StartCrawl": {
+		"message": "Start Crawling"
+	},
+	"StartNewCrawl": {
+		"message": "Start New Crawl"
+	},
+	"UrlsCrawled": {
+		"message": "Total URLs Crawled"
+	},
+	"PagesCrawled": {
+		"message": "Total Pages Crawled"
+	},
+	"BrokenUrls": {
+		"message": "Total Broken URLs"
+	},
+	"OverallScore": {
+		"message": "Total SEO Checker Score"
+	},
+	"auditSummaryFor": {
+		"message": "Audit Summary for"
+	},
+	"WebsiteScore": {
+		"message": "Total SEO Checker Score"
+	},
+	"CategoryScores": {
+		"message": "Category scores"
+	},
+	"UrlsChecked": {
+		"message": "Total URLs Crawled"
+	},
+	"WebsiteCheckedOn": {
+		"message": "Website checked on"
+	},
+	"CrawledUrls": {
+		"message": "Crawled URLs"
+	},
+	"SEOResults": {
+		"message": "SEO Results"
+	},
+	"SpeedResults": {
+		"message": "Speed Results"
+	},
+	"SecurityResults": {
+		"message": "Security Results"
+	},
+	"notificationBeforeCrawlingStart": {
+		"message": "The crawl will start soon..."
+	},
+	"CheckingPages": {
+		"message": "Crawling & Checking Pages..."
+	},
+	"ChecksPerSecond": {
+		"message": "Crawls per second"
+	},
+	"UrlsToCheck": {
+		"message": "Total URLs left to be checked"
+	},
+	"FailedResponses": {
+		"message": "Failures"
+	},
+	"DepthExplored": {
+		"message": "Depth being crawled"
+	},
+	"Duration": {
+		"message": "Time Elapsed"
+	},
+	"FinishSeeResults": {
+		"message": "Stop Crawling & See Results"
+	},
+	"onlyGetPostAllowed": {
+		"message": "only get or post allowed"
+	},
+	"UnexpectedError": {
+		"message": "Unexpected error"
+	},
+	"CssSyntaxError": {
+		"message": "Error in CSS syntax"
+	},
+	"UrlNotDefined": {
+		"message": "Url is not defined"
+	},
+	"UrlIsEmpty": {
+		"message": "Url is empty"
+	},
+	"HostNotFound": {
+		"message": "Host not found"
+	},
+	"HostnameMissing": {
+		"message": "Hostname missing"
+	},
+	"ConnectionError": {
+		"message": "Connection error"
+	},
+	"ErrorFailedWith": {
+		"message": "Error: Failed with"
+	},
+	"UrlIsNotHtmlPage": {
+		"message": "Url is not html page"
+	},
+	"UrlSideError": {
+		"message": "Something went wrong from url side"
+	},
+	"urlProcessingInProgress": {
+		"message": "url processing in progress"
+	},
+	"urlsNotFound": {
+		"message": "urls not found"
+	},
+	"ReportIdMissing": {
+		"message": "Report id missing"
+	},
+	"URLs": {
+		"message": "URLs"
+	},
+	"Pages": {
+		"message": "Pages"
+	},
+	"Assets": {
+		"message": "Assets"
+	},
+	"Redirects": {
+		"message": "Redirects"
+	},
+	"Others": {
+		"message": "Others"
+	},
+	"UnknownCategory": {
+		"message": "unknown category"
+	},
+	"FilterTestError": {
+		"message": "Error in tester function"
+	},
+	"links": {
+		"message": "links"
+	},
+	"headers": {
+		"message": "headers"
+	},
+	"refresh": {
+		"message": "refresh"
+	},
+	"html": {
+		"message": "html"
+	},
+	"copy": {
+		"message": "copy"
+	},
+	"outOf": {
+		"message": "out of"
+	},
+	"MaxRedirectsReached": {
+		"message": "Max redirects reached"
+	},
+	"UrlProcessingFailed": {
+		"message": "Url Processing Failed"
+	},
+	"NoCanonicalTagHeaderFound": {
+		"message": "No canonical tag or header found"
+	},
+	"MultipleCanonicalHeadersFound": {
+		"message": "Multiple canonical headers found"
+	},
+	"MultipleCanonicalTagsFound": {
+		"message": "Multiple canonical tags found"
+	},
+	"CanonicalHeadersTagsUsedAtSameTime": {
+		"message": "Canonical headers and tags being used at the same time"
+	},
+	"UnknownError": {
+		"message": "Unknown error"
+	},
+	"CanonicalShouldBeAbsoluteError": {
+		"message": "Canonical $1 URL is relative when it should be absolute"
+	},
+	"CanonicalEmptyUrlError": {
+		"message": "Canonical $1 with blank URL"
+	},
+	"FromPageIsNotAvailable": {
+		"message": "From Page is not available"
+	},
+	"PageTitles": {
+		"message": "Page titles"
+	},
+	"SetPageTitles": {
+		"message": "Are page titles set?"
+	},
+	"SetPageTitlesSummary": {
+		"message": "Make sure every page on your website has a title that clearly describes what it's about. This is super important because search engines, like Google, pay a lot of attention to titles when deciding how relevant your page is to someone's search. Plus, a good title can make more people want to click on your page when they see it in search results or on social media. You can set your page title in HTML by putting it between `<title>` tags in the `<head>` section of your page, like this: `<title>Your Amazing Page Title</title>`."
+	},
+	"UseOptimalLengthTitles": {
+		"message": "Are title lengths optimal?"
+	},
+	"UseOptimalLengthTitlesSummary": {
+		"message": "It's important to get the length of your page titles just right. If they're too short, they might not give enough information to both people and search engines. If they're too long, they won't show up fully in search results, which isn't helpful either. Aiming for a **title length between 10 and 60 characters** is a sweet spot that helps your pages pop in search results and makes sure search engines know what your pages are about."
+	},
+	"UseUniqueTitles": {
+		"message": "Are page titles unique?"
+	},
+	"UseUniqueTitlesShortSummary": {
+		"message": "Make sure every page on your site has a unique title. Using the same title on multiple pages can confuse search engines and might even hurt your site's search ranking. So, keep each title different to stay in the clear!\n"
+	},
+	"UseUniqueTitlesSummary": {
+		"message": "Every page on your website should have its own unique title. Why? Well, when titles show up in search results, if several pages have the same title, it can really confuse both people and search engines. People might not know which page to click on, and search engines might struggle to figure out which page best answers a search query. Since every page you want people to find should have unique content, you can avoid these issues by making sure each title is specific and accurate to what's on the page."
+	},
+	"PageHeadings": {
+		"message": "Page headings"
+	},
+	"SetH1Headings": {
+		"message": "Does page have H1 headings?"
+	},
+	"H1Headings": {
+		"message": "H1 heading"
+	},
+	"SetH1HeadingsSummary": {
+		"message": "Every page on your website needs a clear H1 heading to let both people and search engines know what the page is about. Think of it like the main title of a chapter in a book - it sums up the content nicely. In HTML, the H1 is your top-level heading, the most important one, and it's followed by other headings like H2, H3, and so on, which are less important. Your H1 should be crisp and informative, helping guide your readers right off the bat. Search engines also look at these headings, especially the keywords in them, to figure out how to rank your page. You can add an H1 heading to your page with the `<h1>` tag, like this: `<h1>About Our Company </h1>`."
+	},
+	"UseOneH1HeadingPerPage": {
+		"message": "Does the page have more than one H1 tag?"
+	},
+	"UseOneH1HeadingPerPageSummary": {
+		"message": "Try to stick with just one H1 heading on each page to make it super clear for both users and search engines what the main topic is. Having more than one H1 can confuse readers about which heading really sums up the page. Keeping it to one H1 heading means there's no confusion. Both Bing and Mozilla recommend using a single H1 per page to help show the structure of your document clearly. While Google suggests using headings that reflect your content's structure accurately, simplifying your page by choosing one main `<h1>` tag and then organizing other information under `<h2>`, `<h3>`, and so forth can really help clear up any confusion. This approach helps you lay out your content neatly, making it easier to follow."
+	},
+	"UseOptimalLengthH1Headings": {
+		"message": "Are H1 lengths optimal?"
+	},
+	"UseOptimalLengthH1HeadingsSummary": {
+		"message": "Make sure your H1 heading on each page isn't too long. This helps both people and search engines quickly get what your page is about. Google suggests keeping headings short so that readers can easily scan your content. If a heading is too long, it might just be a chunk of paragraph text labeled as a heading by mistake. A good rule of thumb is to keep your H1 headings under 70 characters. This keeps things clear and to the point."
+	},
+	"UseUniqueH1Headings": {
+		"message": "Are H1 tags unique?"
+	},
+	"UseUniqueH1HeadingsSummary": {
+		"message": "Each page on your website should have a unique H1 heading. Why? Because each page should stand out with its own content, and the H1 heading is like a signpost telling users and search engines what the page is all about. If multiple pages have the same H1 heading, it might look like you're repeating the same content, which can mess with your search rankings. Think of each H1 as a chance to highlight the unique topic of each page. If you find that some pages share the same H1, it's a good idea to tweak each heading to better match the specific content of its page. This way, you clear up any confusion and make the most of the opportunity to boost your SEO."
+	},
+	"PageDescriptions": {
+		"message": "Page descriptions"
+	},
+	"SetPageDescriptions": {
+		"message": "Are page descriptions set?"
+	},
+	"SetPageDescriptionsSummary": {
+		"message": "Make sure every page on your site has a description that sums up what it's about. These descriptions show up in search results and when your pages are shared on social media. A good description can really boost the number of people clicking through to your site. However, keep in mind that if search engines think a different snippet from your page fits a search query better, they'll show that instead of your description. Also, it's good to know that Google doesn't count these descriptions as a factor in how high your page ranks. To add a description to your page, just include a description meta tag in the `<head>` section of your HTML, like this: `<meta name='description' content='The description of the page'>`."
+	},
+	"UseOptimalLengthDescriptions": {
+		"message": "Are description lengths optimal?"
+	},
+	"UseOptimalLengthDescriptionsSummary": {
+		"message": "Keep your page descriptions just right - not too long and not too short. If they're too long, search results will only show a part of them, and if they're too short, they might not give enough info to be useful. A good length to aim for is between 100 and 320 characters. This way, your descriptions are helpful and fit nicely in search results."
+	},
+	"UseUniqueDescriptions": {
+		"message": "Are descriptions unique?"
+	},
+	"UseUniqueDescriptionsSummary": {
+		"message": "Make sure each page on your website has its own unique description. Just like with titles, having the same description on multiple pages isn't helpful. It confuses users in search results, and if many pages share the same description, it's less likely to be displayed at all. Google even suggests it's better to skip the description altogether than to use the same one over and over. But really, your key pages should have well-crafted, unique descriptions to stand out and accurately reflect their content."
+	},
+	"DuplicateContent": {
+		"message": "Duplicate Content"
+	},
+	"SetCanonicalUrls": {
+		"message": "Are canonical URLs set?"
+	},
+	"SetCanonicalUrlsSummary": {
+		"message": "It's a smart move to specify a valid canonical URL for each page on your site to better manage how search engines handle duplicate URLs. Basically, if there are several URLs on your site that show the same or very similar content, search engines pick one main URL, known as the *canonical URL*. This is the URL that gets crawled more often, shows up in search results, and any backlinks that point to the duplicates are treated as if they point to this canonical URL.\n\n Setting a page's canonical URL to itself, which we call 'self-canonicalizing,' is both valid and helpful. It helps prevent issues like duplicate content that can happen when pages are linked with tracking parameters in the URL. To set up a canonical URL, you can either add a `<link rel='canonical' href='...'>` tag in the `<head>` section of your page (which is the most common method) or add a `Link: <...>; rel='canonical'` header in the page's response headers.\n\n Google recommends using absolute URLs (which include the http part) instead of relative ones (which don't). Be careful though - search engines might ignore your canonical URL if you suggest more than one per page or if the suggested URL is broken, redirects, isn't indexable, or isn't canonical itself. \n\n Also, for exact duplicates, think about whether it might be better to use 301 redirects instead of canonical URLs to consolidate the duplicates. This can streamline your site's structure even more effectively."
+	},
+	"AvoidDuplicatePageContent": {
+		"message": "Is there duplicate page content?"
+	},
+	"AvoidDuplicatePageContentSummary": {
+		"message": "Make sure each page on your website offers unique content that isn't found anywhere else on your site. Search engines don't like it when pages are too similar; they might lower their ranking or not show them at all because it's not useful for users to see the same thing over and over in search results. Also, having duplicate pages can weaken the SEO benefits of backlinks. It's much more effective to have all backlinks pointing to a single URL rather than scattered across several duplicates. Plus, when search engines spend their time crawling duplicates, they might miss indexing your more important pages. \n\n You can fix this issue by merging duplicate pages into one. You can do this by redirecting them to a single URL or by using canonical tags to point to the main page you want to prioritize."
+	},
+	"PageContent": {
+		"message": "Page content"
+	},
+	"AvoidThinContentPages": {
+		"message": "Are there thin content pages?"
+	},
+	"AvoidThinContentPagesSummary": {
+		"message": "Focus on creating pages that are rich in information rather than pages with little content. Search engines tend to penalize pages that don't offer much value because people prefer results that are informative and high quality. Plus, good content naturally boosts your search rankings by drawing more backlinks and social shares. A handy tip is to aim for at least 300 words per page. This is a good baseline to ensure your pages aren't considered too light on content."
+	},
+	"SetImageAltText": {
+		"message": "Are image ALT texts set?"
+	},
+	"SetImageAltTextSummary": {
+		"message": "Every image on your page should have a clear description in the `alt` attribute. This `alt` text isn't just there to fill space; it actually helps improve your search rankings because search engines look at it for relevant keywords. It's also crucial for making your site accessible. Screen readers, which help visually impaired users, rely on `alt` text to understand what an image shows.\n\n Especially for images that are used as links, it's important to use descriptive `alt` text. This way, both screen readers and search engines can understand where the link goes. To add `alt` text, just include an `alt` attribute right in your image tag, like this: `<img src='example.png' alt='Description'>`. \n\n If an image is just there for decoration and doesn't add information, set the `alt` attribute to be empty (`alt=''`). This tells screen readers to skip over the image, keeping the user's experience clutter-free."
+	},
+	"SetMobileScaling": {
+		"message": "Is mobile scaling set?"
+	},
+	"SetMobileScalingSummary": {
+		"message": "Make sure your website is mobile-friendly by setting the right page scaling properties. Normally, mobile browsers will try to display your pages at desktop widths, which can make the text small and tough to read without zooming in. To fix this, use the `viewport` meta tag to tell mobile browsers to adjust the page content to fit the device's width. \n\n This not only makes your site easier to use on mobile devices but also tells search engines that your site is mobile-friendly, which can help improve your rankings on mobile searches. A good `viewport` tag to start with is `<meta name='viewport' content='width=device-width, initial-scale=1'>`. This sets your page width to match the device screen and keeps the initial zoom level at 100%."
+	},
+	"AvoidPlugins": {
+		"message": "Using browser plugins?"
+	},
+	"AvoidPluginsSummary": {
+		"message": "It's best to steer clear of using browser plugins like Java, Flash, ActiveX, and Silverlight for adding dynamic content to your pages. These plugins can be problematic because not everyone has them installed, and they aren't supported on all devices - many mobile platforms don't support them at all. Plus, search engines often struggle to index content that relies on these plugins.\n\n Instead, opt for solutions that work well across all browsers and are mobile-friendly. For instance, instead of using Flash for videos - which doesn't work on mobile devices - use the HTML `<video>` tag. This tag is supported on all platforms and can be easily indexed by search engines, making your content more accessible to everyone."
+	},
+	"UrlNames": {
+		"message": "URL Analysis"
+	},
+	"UseShortUrls": {
+		"message": "Are URLs short?"
+	},
+	"UseShortUrlsSummary": {
+		"message": "It's a good idea to keep your page URLs short and sweet. Why? Because shorter URLs look better in search results, they're easier for people to remember, and they're less likely to be mistyped. But while you're keeping them short, also make sure they still clearly describe what's on the page. For example, instead of a long URL like `example.com/how-to-cook-bacon-wrapped-sirloin`, you could go for something more streamlined like `example.com/bacon-wrapped-sirloin`. Aim to keep your URLs under 100 characters for the best balance between clarity and convenience."
+	},
+	"AvoidUnderscoresInUrls": {
+		"message": "Are there underscores in URLs?"
+	},
+	"AvoidUnderscoresInUrlsSummary": {
+		"message": "When creating URLs, it's best to separate words with hyphens rather than underscores. Google suggests this to make your URLs easier to read for everyone. Here's the thing: when you use underscores to connect words, search engines might see them as one big word, which isn't usually what you want. For example, instead of `example.com/bacon_wrapped_sirloin`, go for `example.com/bacon-wrapped-sirloin`. Using hyphens helps both Google and potential visitors understand your URLs better."
+	},
+	"AvoidUrlExtensions": {
+		"message": "Do URLs have extensions?"
+	},
+	"AvoidUrlExtensionsSummary": {
+		"message": "Try to keep your URLs clean by avoiding unnecessary extensions like `.htm`, `.html`, `.shtml`, `.php`, `.jsp`, and `.asp`. These extensions are related to the backend technology used on your site, but that's usually not important to your visitors. Plus, they can change over time and make your URLs longer than they need to be.\n\n When people see your URLs in search results, these extensions don't add any value and can even be a distraction. It's better to go for more user-friendly URLs that don't include extensions. For example, instead of `example.com/story.html`, just use `example.com/story`. It's cleaner and easier on the eyes."
+	},
+	"AvoidUrlParams": {
+		"message": "Do URL have parameters?"
+	},
+	"AvoidUrlParamsSummary": {
+		"message": "It's best to keep your URLs simple and clean by steering clear of URL parameters when you can. Parameters can make URLs look complicated and cluttered in search results. For instance, instead of having a URL like `example.com/display?topic=recipe`, which has the parameter `topic=recipe` making it look busy, you could simplify it by using subfolders. So, that URL could be neatened up to `example.com/diplay/recipe`. This approach is much more user-friendly and looks cleaner in search results."
+	},
+	"AvoidSymbolsInUrls": {
+		"message": "Do URLs have symbols?"
+	},
+	"AvoidSymbolsInUrlsSummary": {
+		"message": "It's a good idea to keep symbols out of your URLs and go for options that are easier to read. Symbols like `%`, `+`, and `*` can make your URLs look messy and unappealing in search listings. Typically, all you really need in a URL are letters, digits, slashes, and hyphens. For instance, instead of having a URL like `example.com/bacon+wrapped%20sirloin`, where `+` and `%20` are used to separate words, you can clean it up by using hyphens: `example.com/bacon-wrapped-sirloin`. This looks much neater. Also, keep an eye on `%20` popping up in your URLs, as this often sneaks in automatically when spaces are encoded by backend systems."
+	},
+	"UseLowercaseUrls": {
+		"message": "Are URLs lowercase?"
+	},
+	"UseLowercaseUrlsSummary": {
+		"message": "Stick to using only lowercase letters in your URLs. This is important because some search engines and web servers see URLs as case sensitive, which means URLs with mixed case letters can lead to problems. For instance, if two URLs that only differ in letter case point to the same page, it could be flagged as duplicate content, hurting your search rankings. Additionally, mixed case URLs are tougher to type in correctly, and sometimes a server might not find the page if the casing isn't exactly right.\n\n Generally, it's best to write all URL parts in lowercase, even for words that usually start with a capital letter. And rather than using capitals to separate words, use hyphens. For example, a URL like `example.com/Bacon/Wrapped/Sirloin` should be simplified to `example.com/bacon-wrapped-sirloin`. This makes your URLs cleaner and avoids potential issues."
+	},
+	"AvoidDeeplyNestedUrls": {
+		"message": "Are URLs nested?"
+	},
+	"AvoidDeeplyNestedUrlsSummary": {
+		"message": "Keep your URL structures simple and avoid using too many subfolders. When URLs get too deep, like `example.com/recipe/bacon/wrapped/sirloin/`, they can look long, complicated, and are difficult to read. Aim for simpler, shallower directory structures that make it easier for users to understand where they are on your site by grouping related pages under the same folder. For example, you could streamline the URL mentioned above to `example.com/recipe/bacon-wrapped-sirloin`, cutting down the number of subfolders from four to two. A good rule of thumb is to try not to have more than five subfolders in any URL. This keeps things neat and easy to navigate."
+	},
+	"CodeValidation": {
+		"message": "Code validation"
+	},
+	"UseValidHTML": {
+		"message": "Is HTML valid?"
+	},
+	"UseValidHTMLSummary": {
+		"message": "Make sure your pages don't have any HTML validation errors. When your HTML code isn't right, it can lead to issues like your page not showing up properly for users. Different browsers handle faulty HTML differently, so to avoid these kinds of problems, it's best to stick to valid HTML. Also, search engines that come across invalid HTML might not interpret your page content correctly, which could affect how your site shows up in search results. Keeping your HTML clean helps ensure everything works smoothly for both your visitors and search engines."
+	},
+	"UseValidCSS": {
+		"message": "Is CSS valid?"
+	},
+	"UseValidCSSSummary": {
+		"message": "Make sure your CSS files don't have any syntax errors. Mistakes in your CSS can lead to your pages not looking right, which means visitors might not see your content the way you planned. Also, if your CSS messes up and hides content on the page, it could even affect your search rankings. Google has mentioned that pages can be penalized for this kind of issue. So, keeping your CSS clean and error-free is not just about good looks - it's important for keeping your site user-friendly and performing well in search results."
+	},
+	"UseValidJavaScript": {
+		"message": "Is JavaScript valid?"
+	},
+	"UseValidJavaScriptSummary": {
+		"message": "Keep your JavaScript files clean and free of syntax errors. JavaScript plays a big role in shaping the look, content, and behavior of your website. If there are errors in the JavaScript, it can mess up how your pages look and even break the interactive parts of your site. This can lead to a frustrating experience for your visitors and might even hurt your search rankings. So, making sure your JavaScript is error-free is key to keeping your site running smoothly and keeping your visitors happy."
+	},
+	"Links": {
+		"message": "Link Analysis"
+	},
+	"Use404CodeForBrokenUrls": {
+		"message": "Do broken URLs return 404 status code?"
+	},
+	"Use404CodeForBrokenUrlsSummary": {
+		"message": "When someone requests a URL on your site that doesn't exist, make sure it returns a 404 HTTP status code. This tells search engines that the link is broken, which is important especially if the URL hasn't been indexed yet. It stops search engines from adding a non-existent page to their listings. If a page that was previously working starts showing a 404 code instead of, say, a 200 (which means everything is OK), search engines will eventually remove it from their results. So, only use the 404 code for truly broken or non-existent URLs.\n\n The 404 code is also crucial for tools that check your site for broken links - without it, these tools can't alert you to problems. For your visitors, whenever they hit a 404 error, show a friendly 'not found' page that helps guide them back to useful content. \n\n To test if your 404 setup is working correctly, try visiting a URL on your site that you know doesn't exist, like `/seo-checker-not-found-page`, and see if it correctly returns a 404 status. If there's an issue, fixing it will depend heavily on the specific web framework and server you're using. You might need to look up a tutorial specific to your setup to see what needs tweaking."
+	},
+	"AvoidBrokenInternalLinks": {
+		"message": "Are internal links broken?"
+	},
+	"AvoidBrokenInternalLinksSummary": {
+		"message": "Make sure all the links within your website are working correctly. Broken links can stop search engines from finding all the parts of your site, which might mean some of your pages don't get the SEO boost they should. Plus, broken links are a surefire way to frustrate your visitors - if they click on something and it doesn't work, they're not going to be happy. Keeping all your internal links up and running smoothly helps both your SEO and your user experience."
+	},
+	"AvoidBrokenExternalLinks": {
+		"message": "Are external links broken?"
+	},
+	"AvoidBrokenExternalLinksSummary": {
+		"message": "Keep an eye on all the links on your site that point to external websites. Since you don't control these sites, the links might stop working if the external pages are moved or deleted. It's a good idea to check these links regularly and update them if needed. Broken links can make search engines think your site is of low quality, and they definitely annoy users who end up clicking on something that doesn't work. Keeping your external links in good shape helps maintain the integrity of your site and keeps your visitors happy."
+	},
+	"AvoidBrokenPageResources": {
+		"message": "Are page resources broken?"
+	},
+	"AvoidBrokenPageResourcesSummary": {
+		"message": "Make sure all the links to resources like images, CSS, and JavaScript on your pages are working properly. If these resources don't load, your content might not show up at all, it could look wrong, or interactive elements might not work. This can lead to a bad experience for your visitors and might even hurt your search rankings. Keeping all these links in tip-top shape helps ensure your site looks and functions as it should, giving your visitors a smooth experience."
+	},
+	"UseRobotFiles": {
+		"message": "Does robots.txt exist?"
+	},
+	"UseRobotFilesSummary": {
+		"message": "Put a robots.txt file on every subdomain to manage how search engines interact with your site, like where your sitemaps are and what parts they should or shouldn't crawl. You'll find the robots.txt file in the root folder, and it's simply named `robots.txt`. Remember, a robots.txt file only affects the URLs that match its location in terms of protocol, subdomain, domain, and port. For instance, a robots.txt file at `http://example.com/robots.txt` applies to URLs under `http://example.com`, but it won't cover `https://example.com` or `http://www.example.com`.\n\n Even having an empty robots.txt file is helpful because it can clean up your server logs by reducing the 404 errors that bots might generate when they look for this file and can't find it. However, be aware that just telling search bots not to visit a page through robots.txt doesn't hide that page from search results - if other pages link to it, it might still show up. If you really want to keep a page out of search results, use `noindex` meta tags on the page itself."
+	},
+	"SetSitemapLocations": {
+		"message": "Are sitemap locations set?"
+	},
+	"SetSitemapLocationsSummary": {
+		"message": "Each robots.txt file on your site should point out where your sitemap files are. Sitemaps are important because they list all the pages you want search engines to find and index. They also provide useful details like when each page was last updated and how often the pages change, which helps search engines crawl your site more effectively. You can include the location of your sitemap in your robots.txt file with a simple line like `Sitemap: http://example.com/sitemap.xml`. And if you have more than one sitemap, no worries - you can list multiple sitemaps in the same robots.txt file."
+	},
+	"AvoidTempRedirects": {
+		"message": "Any temporary redirects?"
+	},
+	"AvoidTempRedirectsSummary": {
+		"message": "When you need to redirect a webpage from one URL to another, it's usually better to use a permanent redirect, which is known as a 301 redirect. This tells search engines that the old URL has changed permanently to the new one. As a result, search engines update their records to the new URL and transfer any search rank power the old page had to the new page.\n\n On the other hand, temporary redirects (usually a 302 or 307 status) should be used when a page is only moved temporarily. With these, search engines don't update their links to the new URL, and they don't pass on the link equity (the ranking power) either.\n\n If you're moving a page that has a lot of backlinks pointing to it, using a permanent redirect is crucial to keep the page's search ranking intact. This helps make sure all that hard-earned SEO value isn't lost."
+	},
+	"AvoidMetaRedirects": {
+		"message": "Any meta redirects?"
+	},
+	"AvoidMetaRedirectsSummary": {
+		"message": "It's better to use server-side redirects rather than relying on meta tags to redirect your web pages. Meta tag redirects are done using an HTML tag that tells the browser to head to a new URL after a certain amount of time, like this: `<meta http-equiv='refresh' content='5;http://example.com/final-destination'>`, which would make the browser wait 5 seconds before moving to the new URL.\n\n However, these types of redirects have some drawbacks. Some search engine crawlers might not follow them, they can mess up the browser's 'back' button, and it can be confusing for users when one page loads only to be replaced by another a few seconds later. Organizations like Google and the W3C (World Wide Web Consortium) recommend using server-side redirects because they avoid these problems and are more reliable for both users and search engines.\n"
+	},
+	"Overview": {
+		"message": "Overview"
+	},
+	"AllUrls": {
+		"message": "All URLs"
+	},
+	"AllUrlsSummary": {
+		"message": "All URLs crawled."
+	},
+	"InternalUrls": {
+		"message": "Internal URLs"
+	},
+	"InternalUrlsSummary": {
+		"message": "All internal URLs crawled."
+	},
+	"ExternalUrls": {
+		"message": "External URLs"
+	},
+	"ExternalUrlsSummary": {
+		"message": "All external URLs crawled."
+	},
+	"FailingUrls": {
+		"message": "Failing URLs"
+	},
+	"FailingUrlsSummary": {
+		"message": "All URLs that returned a 40x or 50x status code. This indicates that they failed to load."
+	},
+	"StatusCodes": {
+		"message": "Status codes"
+	},
+	"20xstatusSuccess": {
+		"message": "20x status - Success"
+	},
+	"20xstatusSuccessSummary": {
+		"message": "URLs that returned a status between 200 and 299. This indicates they loaded successfully."
+	},
+	"30xStatusRedirection": {
+		"message": "30x status - Redirection"
+	},
+	"30xStatusRedirectionSummary": {
+		"message": "URLs that returned a status between 300 and 399. This indicates they are redirects."
+	},
+	"40xStatusClientError": {
+		"message": "40x status - Client error"
+	},
+	"40xStatusClientErrorSummary": {
+		"message": "URLs that returned a status between 400 and 499. This indicates a client error. The most recognisable example of this is status 404 that typically signifies a dead or broken link."
+	},
+	"50xStatusServerError": {
+		"message": "50x status - Server error"
+	},
+	"50xStatusServerErrorSummary": {
+		"message": "URLs that returned a status between 500 and 599. This indicates a server error. For example, a 500 status code generally indicates the backend code encountered an unexpected or unhandled error."
+	},
+	"OtherStatus": {
+		"message": "Other status"
+	},
+	"OtherStatusSummary": {
+		"message": "URLs that did not get a response such as from timeouts and connection issues."
+	},
+	"Indexing": {
+		"message": "Indexing"
+	},
+	"PagesContainCanonicalLink": {
+		"message": "Pages that indicate they are canonical by containing a `canonical` link."
+	},
+	"CanonicalPages": {
+		"message": "Canonical pages"
+	},
+	"PagesNotContainCanonicalLink": {
+		"message": "Pages that do not contain a `canonical` link."
+	},
+	"NoncanonicalPages": {
+		"message": "Noncanonical pages"
+	},
+	"NoindexPages": {
+		"message": "Noindex pages"
+	},
+	"NoindexPagesSummary": {
+		"message": "Pages that use the `noindex` meta tag to tell search engines not to list pages in search results. Such pages should _not_ be blocked from being crawled in robots.txt files because then search engine crawlers will not see the meta tag and the page can then still appear in search results if other pages link to it."
+	},
+	"NofollowPages": {
+		"message": "Nofollow pages"
+	},
+	"NofollowPagesSummary": {
+		"message": "Pages that tell search engines not to follow links on that page by containing a `nofollow` meta tag."
+	},
+	"UrlTypes": {
+		"message": "URL types"
+	},
+	"PagesSummary": {
+		"message": "All the pages that SEO Checker found during the crawl."
+	},
+	"CSS": {
+		"message": "CSS"
+	},
+	"CssSummary": {
+		"message": "All the CSS files that SEO Checker found during the crawl."
+	},
+	"JavaScript": {
+		"message": "JavaScript"
+	},
+	"JavaScriptSummary": {
+		"message": "All the JavaScript files that SEO Checker found during the crawl."
+	},
+	"Images": {
+		"message": "Images"
+	},
+	"ImagesSummary": {
+		"message": "All the image files that SEO Checker found during the crawl."
+	},
+	"RobotsSummary": {
+		"message": "All the robots.txt files that SEO Checker found during the crawl."
+	},
+	"Sitemap": {
+		"message": "Sitemap"
+	},
+	"SitemapSummary": {
+		"message": "All the sitemap files that SEO Checker found during the crawl."
+	},
+	"Other": {
+		"message": "Other"
+	},
+	"OtherSummary": {
+		"message": "Any other file types that SEO Checker found during the crawl."
+	},
+	"AllRedirectsCrawled": {
+		"message": "All redirects crawled."
+	},
+	"redirectsSummary": {
+		"message": "All redirects that SEO Checker found during the crawl."
+	},
+	"PermanentRedirects": {
+		"message": "Permanent Redirects"
+	},
+	"PermanentRedirectsSummary": {
+		"message": "All permanent redirects that SEO Checker found during the crawl.. These are indicated by a 301 (Moved Permanently) or 308 status code (Permanent Redirect)."
+	},
+	"TempRedirects": {
+		"message": "Temporary Redirects"
+	},
+	"TempRedirectsSummary": {
+		"message": "All temporary redirects that SEO Checker found during the crawl.. These are indicates by a 302 (Found), 303 (See Other), 307 (Temporary Redirect)"
+	},
+	"OtherRedirects": {
+		"message": "Other Redirects"
+	},
+	"OtherRedirectsSummary": {
+		"message": "Any redirects that SEO Checker found that do not give a status code of either being a temporary or permanent redirect."
+	},
+	"Hidden": {
+		"message": "Hidden"
+	},
+	"Outlinks": {
+		"message": "Outlinks"
+	},
+	"Inlinks": {
+		"message": "Inlinks"
+	},
+	"ResponseHeaders": {
+		"message": "Response headers"
+	},
+	"DocumentStructure": {
+		"message": "Document structure"
+	},
+	"RedirectPath": {
+		"message": "Redirect path"
+	},
+	"UseHttps": {
+		"message": "Is HTTPS used?"
+	},
+	"UseHttpsSummary": {
+		"message": "Make sure all your pages use HTTPS to keep things safe and protect your visitors' privacy. When a browser uses regular HTTP to load a URL, the data goes over the internet unprotected. This means attackers can sneak a peek at, or even change, the data being sent. They could grab passwords and personal info, slip malware or ads onto your pages, or redirect your visitors to harmful sites.\n\n Switching to HTTPS encrypts the data traveling between your website and browsers, blocking attackers from messing with or eavesdropping on your communications. The specifics of setting up HTTPS depend on your server or hosting service. Once you've got it running, ensure that all `http://` requests are automatically redirected to `https://` to keep everyone secure and maintain privacy."
+	},
+	"AvoidMixedContent": {
+		"message": "Is there mixed content?"
+	},
+	"AvoidMixedContentShortSummary": {
+		"message": "Make sure your HTTPS pages only use resources that are also served over HTTPS. If your secure pages load images, scripts, or other content over plain HTTP, browsers will flag these as security risks and might show warnings to your visitors. This can make your site look less trustworthy. So, to keep everything running smoothly and securely, ensure all your page resources are loaded via HTTPS too."
+	},
+	"AvoidMixedContentSummary": {
+		"message": "When you have pages that use HTTPS, make sure all the resources on those pages - like images, JavaScript, CSS, and iframes - are also loaded over HTTPS. If these resources are loaded over HTTP instead, browsers can detect this as a security risk, a situation known as 'mixed content.' This can happen because HTTP resources are not secured, making it possible for attackers to alter them. For instance, if someone could tamper with a JavaScript file being sent to a browser, they might inject harmful code to steal passwords or redirect users to dangerous sites.\n\n To protect your visitors, browsers will block these insecure resources and may show 'mixed content' warnings, making your site appear less secure. To avoid these issues, ensure you include all your page resources using `https://` in their URLs, keeping everything consistent and secure."
+	},
+	"UseSecurePasswordForms": {
+		"message": "Are forms with passwords secure?"
+	},
+	"UseSecurePasswordFormsShortSummary": {
+		"message": "Make sure that any page with a password field is secure by using HTTPS. When someone enters their password, it should be sent from an HTTPS page using a POST request to another HTTPS URL. This setup helps keep the password safe and secure as it travels across the internet, protecting it from prying eyes."
+	},
+	"UseSecurePasswordFormsSummary": {
+		"message": "When you have password fields on your website, it's crucial to handle them securely to protect your users' information. Here's how to make sure passwords are sent safely:\n\n 1. **Serve your pages over HTTPS**: This first step ensures that the page itself is secure and prevents attackers from tampering with it to redirect passwords elsewhere.\n\n 2. **Set the form action to an HTTPS URL**: Make sure the form's `action` attribute points to an HTTPS URL (`<form action='https://...'>`). This setup ensures that when the form is submitted, the data, including passwords, is sent securely, making it much harder for anyone to intercept the data as it travels to the server.\n\n 3. **Use POST for form submissions**: The form's `method` attribute should be set to POST (`<form method='POST'...>`). This method sends data in the body of the request rather than the URL. It's a safer way to transmit sensitive information because it doesn't leave traces in browser histories, address bars, server logs, or the `Referer` header when users click through to other pages.\n\n By following these steps, you help keep your users' passwords protected as they log in or register on your site."
+	},
+	"UseHsts": {
+		"message": "Is HSTS used?"
+	},
+	"UseHstsSummary": {
+		"message": "Set up HSTS (HTTP Strict Transport Security) on your website to make sure browsers always use HTTPS instead of HTTP when visiting your site. Here's how it works: when a browser hits your site and encounters the `Strict-Transport-Security` response header, it automatically switches all future `http://` requests to `https://` for your site. This helps secure user data by enforcing encrypted connections."
+	},
+	"UseHstsPreload": {
+		"message": "Is HSTS preload used?"
+	},
+	"UseHstsPreloadSummary": {
+		"message": "To ramp up security even before anyone visits your site, consider adding your site to the HSTS preload list. Here's the deal: Normally, your HSTS policy kicks in only after a visitor's browser loads your site and sees an HSTS response header. That means there's a window of vulnerability when a new visitor first comes to your site using an insecure HTTP connection. \n\n To close this gap, you can get your site on the 'HSTS preload list.' This means browsers will automatically use HSTS for your site from the get-go, even before the first visit. To qualify for this, your site's `Strict-Transport-Security` header on all responses across all subdomains must include a `max-age` of at least one year (31,536,000 seconds), and must have both `includeSubDomains` and `preload` options set. The header should look like this: `Strict-Transport-Security: max-age=31536000; includeSubDomains; preload`.\n\n Make sure you get the capitalization right, like in `includeSubDomains`. Once your header is set up correctly, you can submit your site for inclusion in the preload list at [https://hstspreload.org/](https://hstspreload.org/)."
+	},
+	"ContentSniffing": {
+		"message": "Content sniffing"
+	},
+	"UseSniffingProtection": {
+		"message": "Is content sniffing protection enabled?"
+	},
+	"UseSniffingProtectionSummary": {
+		"message": "To boost your website's security, it's a good idea to turn off browser content sniffing. Here's why: browsers sometimes try to figure out what type of content they're dealing with on their own, especially if the `Content-Type` header is missing or inaccurate. This process, known as content sniffing, aims to smooth out user experience but can open up security risks.\n\n For instance, if your site allows users to upload images, an attacker could exploit this by uploading an image file that's actually laced with JavaScript code. If a browser uses content sniffing, it might misread this file as executable code and run the malicious script.\n\n To prevent such vulnerabilities, you can use the `X-Content-Type-Options` response header with the value `nosniff`. This setting tells browsers to trust the `Content-Type` header explicitly and not to guess the content type on their own. This simple step can significantly reduce the risk of content sniffing exploits."
+	},
+	"SetMimeTypes": {
+		"message": "Are MIME types set?"
+	},
+	"SetMimeTypesSummary": {
+		"message": "Make sure that every response from your server correctly specifies its MIME type. This helps browsers understand exactly what type of content they're dealing with. When you use the `X-Content-Type-Options: nosniff` header, it tells browsers not to guess the content type (a process known as content sniffing). Instead, browsers will strictly follow what the `Content-Type` header says.\n\n To prevent any mix-ups and ensure your content displays correctly, always set the `Content-Type` header with the accurate MIME type for each piece of content you serve. This straightforward step can help avoid issues where browsers might misinterpret the data they receive, leading to display or functionality problems on your website."
+	},
+	"General": {
+		"message": "General"
+	},
+	"Miscellaneous": {
+		"message": "Miscellaneous"
+	},
+	"UseClickjackProtection": {
+		"message": "Is clickjack protection enabled?"
+	},
+	"UseClickjackProtectionSummary": {
+		"message": "To guard against clickjacking attacks, it's smart to control how your pages can be embedded in iframes. Clickjacking is when an attacker puts your page inside an iframe on their own site. They might layer their own user interface over it to trick visitors into clicking something they shouldn't - like sharing links, clicking ads, or even entering passwords. They could also overlay form fields to snatch up data.\n\n To stop these sneaky tactics, use the `X-Frame-Options` response header to set boundaries on who can embed your pages. Here's what you can choose: \n 1. **`DENY`** - This option blocks all iframes, no matter where they're from. \n 2. **`SAMEORIGIN`** - This allows iframes only from the same origin as your page. \n 3. **`ALLOW-FROM`** - This lets you specify a particular origin that can embed your pages.\n\n For maximum security, you might choose `X-Frame-Options: DENY`, which stops all iframe embedding. It's best to pick the most restrictive setting that fits your needs to keep your site safe."
+	},
+	"UseXssProtection": {
+		"message": "Is XSS protection enabled?"
+	},
+	"UseXssProtectionSummary": {
+		"message": "To safeguard against XSS (Cross-Site Scripting) attacks, it's a good idea to activate browser XSS protection. XSS attacks happen when an attacker manages to slip malicious code into a webpage that's then sent to users. Some browsers offer built-in protection against these attacks, which you can enable by adding `X-XSS-Protection: 1; mode=block` to your webpage's response headers. With this setting, if the browser detects an XSS attack, it won't render the page at all, effectively stopping the attack in its tracks.\n\n However, keep in mind that this should be your backup plan, not your first line of defense. The best strategy is to design your website with strong XSS safeguards from the start. Make sure your site is thoroughly checked and built to prevent any code injection attempts long before they reach a user's browser."
+	},
+	"HideServerVersionData": {
+		"message": "Is server information hidden?"
+	},
+	"HideServerVersionDataSummary": {
+		"message": "To beef up your website's security, it's a smart move to hide details about the software running on your web server. Often, web servers reveal the type and version of software they're using right in the response headers - for instance, you might see something like `Server: Apache/2.4 (Win32) PHP/8.2` when a webpage is requested. This kind of information can be a goldmine for attackers, giving them clues on potential vulnerabilities to exploit.\n\n Response headers like `Server`, `Powered-by`, `ASPNET`, and `ASPNETMVC` often include these software details. You should configure your server to suppress these headers to make it tougher for attackers to figure out what they're up against.\n\n Keep in mind, though, that a determined attacker might find other ways to dig up details about your server setup and identify vulnerabilities even without these headers. But, removing them doesn't usually take much effort and can still play a part in protecting your site by removing easy hints."
+	},
+	"PageSize": {
+		"message": "Page size analysis"
+	},
+	"UseCompression": {
+		"message": "Is compression setup?"
+	},
+	"UseCompressionSummary": {
+		"message": "Speed up your website by setting your server to compress data before sending it. This can shrink the size of compressible files by about 60% to 80% with just a bit of setup. It's especially effective for text-based data like HTML, CSS, JavaScript, plain text, XML, JSON, and SVG. These should always be sent in a compressed format."
+	},
+	"AvoidRecompressingData": {
+		"message": "Is data recompressed"
+	},
+	"AvoidRecompressingDataSummary": {
+		"message": "When it comes to compressing data on your server, it's important to focus only on the types of data that actually benefit from compression. This means skipping compression for files that are already in a compressed format, like JPG, PNG, MP4, and PDF files. Compressing these again when your website serves them up isn't necessary and could actually waste server resources or increase the file sizes.\n\n Stick to compressing data types that can be effectively compressed, such as HTML, CSS, JavaScript, and SVG files. This approach helps optimize your server's performance without overloading it."
+	},
+	"UseMinification": {
+		"message": "Is minification setup?"
+	},
+	"UseMinificationShortSummary": {
+		"message": "Make sure to minify all your CSS and JavaScript files. This process trims down the file sizes by removing unnecessary spaces, comments, and characters. It's a simple way to lighten the load of your web pages, making them load faster for your visitors."
+	},
+	"UseMinificationSummary": {
+		"message": "To help your web pages load faster, consider minifying your CSS and JavaScript files. Minification is a technique where you strip out unnecessary stuff - like comments and extra spaces - from these files. This doesn't change how the code works, but it does make the files smaller. Typically, you can shrink file sizes by about 30% this way.\n\n While compression can reduce file sizes even more, using both minification and compression together is the best strategy. This is because minification removes some data altogether, while compression just squeezes everything tighter without removing anything. By combining these methods, you end up with much smaller files, making your website quicker to load and smoother to navigate."
+	},
+	"AvoidInlineSourceMaps": {
+		"message": "Are inline source maps used?"
+	},
+	"AvoidInlineSourceMapsSummary": {
+		"message": "When you're minifying your CSS and JavaScript files, be careful not to embed the source maps directly into them. Source maps are super useful for developers because they make it easier to debug by linking the minified code back to the original, more readable code. Usually, minification tools offer two choices: they can either put the source map in a separate file or include it right in the minified file.\n\n However, including source maps directly in your files (inlining) can actually make them bigger than the original minified code, which kind of defeats the purpose of minifying in the first place. During development, inlined source maps are fine because they help with quick debugging. But for your live site (production), it's better to keep source maps external.\n\n To see if your JavaScript or CSS file has an inlined source map, just look for a comment like `/* sourceMappingURL=data:` in your files. This indicates that the source map is included within the file itself."
+	},
+	"Caching": {
+		"message": "Caching"
+	},
+	"UseCaching": {
+		"message": "Is caching used?"
+	},
+	"UseCachingSummary": {
+		"message": "Turn on caching for your website's resources to let browsers save and reuse the files they've already downloaded. This is controlled using the `Cache-Control` response header, which sets the caching rules for each URL. You'll see settings like `no-store`, which stops browsers from caching anything, and `no-cache`, which makes browsers check with your server to see if the cached version is still up-to-date before using it.\n\n For your page resources, it's best to avoid setting `no-cache` and `no-store`. When these aren't set, browsers will cache resources and use them right away the next time they're needed, without having to check back with the server. This makes your site load faster for repeat visitors.\n\n **However, a heads up:** You need to have a plan for updating these cached resources. Typically, you should change the URL of a resource (like adding a version number or unique string) whenever you update it. This technique, known as 'cache busting', ensures browsers download the new version instead of using the old one from cache. Many web frameworks handle this automatically for you."
+	},
+	"UseLongCachingTimes": {
+		"message": "Are long caching times used?"
+	},
+	"UseLongCachingTimesSummary": {
+		"message": "Set up your website's page resources to be cached for long periods. This means that once a browser downloads something like an image or a CSS file, it can hang on to it and reuse it without downloading it again the next time someone visits your site. You can control how long these files stay fresh in the cache in a couple of ways:\n\n 1) Use the `Expires` header to set an exact date and time when the file should be considered out-of-date, like `Expires: Fri, 10 Aug 2019 20:00:00 GMT`. \n 2) Use the `Cache-Control` header with a `max-age` directive that tells the browser how many seconds the file should be considered fresh, such as `Cache-Control: max-age=3600` for one hour.\n\n If you use both `max-age` and `Expires`, remember that `max-age` will override the `Expires` setting.\n\n I recommend setting your cache times to at least 24 hours. This gives a good balance, keeping your site snappy for repeat visitors without storing outdated versions for too long."
+	},
+	"AvoidDuplicateResources": {
+		"message": "Are there duplicate resources?"
+	},
+	"AvoidDuplicateResourcesSummary": {
+		"message": "To boost caching efficiency on your website, always serve the same page resource from the same URL. Browsers cache files based on their URLs, so they only reuse a cached file if it's requested from the exact same URL as before. If the same file is accessible through different URLs, it can result in unnecessary extra browser requests.\n\n For example, imagine a browser cached a file from `http://example.com/SEO Checker.js`. If later, the same content needs to be fetched from slightly different URLs like `https://example.com/SEO Checker.js`, `http://www.example.com/SEO Checker.js`, `http://example.com/sc.js`, `http://example.com/libs/SEO Checker.js`, `http://example.com/SEO Checker.js?v=0.1&t=1`, or `http://example.com/SEO Checker.js?t=1&v=0.1`, the browser won't recognize them as the same due to the differences in protocol, subdomain, path, or query string ordering. As a result, it will download the same content again for each new URL.\n\n To ensure efficient caching, make sure that each unique resource on your site is linked consistently using the same URL everywhere it's referenced. This keeps your pages loading faster for repeat visitors, as their browsers can effectively reuse cached resources."
+	},
+	"AvoidExcessiveInlineCss": {
+		"message": "Is inline CSS used?"
+	},
+	"AvoidExcessiveInlineCssSummary": {
+		"message": "Using external CSS files rather than inlining large chunks of CSS directly into your pages can really help with the efficiency of your site's caching. When you inline CSS using `style` attributes or `<style>` tags, it might be handy during the development phase, but it means that any CSS shared across multiple pages won't get cached by the browser.\n\n That said, Google does suggest inlining just enough CSS in the head of your document to quickly render the top part of the page. This approach can make your site feel snappier because the visible part of the page loads right away. Google's AMP (Accelerated Mobile Pages) project also recommends inlining CSS for each page to cut down on the number of requests - but only if it's a modest amount.\n\n As a general rule, try to keep the amount of CSS you inline under 50,000 bytes per page. This helps you balance between fast initial load times and good caching practices."
+	},
+	"AvoidCssImport": {
+		"message": "Is CSS @import used?"
+	},
+	"AvoidCssImportSummary": {
+		"message": "Try to avoid using `@import` inside your CSS files because it stops the CSS from loading all at once. When you use `@import` to bring in another CSS file by its URL, it might seem handy, but it actually slows things down. Here's why: the browser can only start fetching the imported file after it has completely downloaded the CSS file that contains the `@import`. This sequential loading delays everything.\n\n To speed things up and get your CSS files to load simultaneously, it's better to link each CSS file directly in your HTML. You can do this by adding a `<link rel='stylesheet' href='...'>` tag for each CSS file in the head of your HTML. This method lets the browser load all the CSS files at the same time, making your page appear faster to users."
+	},
+	"AvoidRenderBlockingJavaScript": {
+		"message": "Is render-blocking JavaScript used?"
+	},
+	"AvoidRenderBlockingJavaScriptSummary": {
+		"message": "When adding external JavaScript to your pages, it's important to do it in a way that doesn't slow down how the rest of your page loads. Normally, when you put a `<script src='...'>` tag in your HTML, it stops the rest of the page from loading until the JavaScript file is completely downloaded and executed. Inline JavaScript does the same, pausing everything until it runs.\n\n To prevent this from happening, you can place your `<script>` tags right before the closing `</body>` tag of your HTML. This way, most of your page can load before the browser needs to deal with the scripts.\n\n Another good strategy for external JavaScript is to use the `defer` or `async` attributes in your script tags: \n - `<script defer src='...'>` makes sure the script only runs after the whole page has loaded (but before the `DOMContentLoaded` event). Scripts with `defer` will run in the order they appear on the page. \n - `<script async src='...'>` allows the script to run as soon as it's downloaded, without waiting for the entire page to load. This can lead to faster performance, but since `async` scripts run in no particular order, they might not work correctly if they depend on each other.\n\n The choice between `defer` and `async` depends on whether your scripts need to run in a specific order. This is something to keep in mind, especially if your scripts rely on each other to function properly."
+	},
+	"AvoidExcessiveInlineJavaScript": {
+		"message": "Is inline JavaScript used?"
+	},
+	"AvoidExcessiveInlineJavaScriptSummary": {
+		"message": "It's a good idea to avoid using inline JavaScript in your web pages to help them load faster and to improve how effectively they can be cached. Inline JavaScript is when you place your JavaScript code directly within your HTML using the `<script>` tag. While this might be handy during the development phase, it has a couple of drawbacks. First, it can slow down the rendering of your HTML because the browser has to stop and deal with the JavaScript before it can continue. Second, if you're using the same JavaScript across multiple pages, it won't be cached by the browser, which means it has to be loaded anew each time.\n\n A better approach is to link to JavaScript as external files using `<script src='...'>` tags, and set them up so they load after the rest of your page (defer loading). However, there are times when inlining small bits of JavaScript makes sense, especially if avoiding an additional request to the server speeds up the overall loading time more than what would be gained from caching.\n\n As a general rule, try to keep inline JavaScript to less than 10,000 bytes per page to maintain good performance and caching efficiency."
+	},
+	"AvoidInternalLinkRedirects": {
+		"message": "Are internal link redirects used?"
+	},
+	"AvoidInternalLinkRedirectsSummary": {
+		"message": "To make your website feel faster as users click from page to page, it's a good idea to avoid linking to URLs that redirect to other URLs. For instance, if you have a link on your site pointing to `/updates`, but you've moved that page to `/status`, anyone clicking on that link will hit a delay while their browser follows the redirect to the new page. To cut out this extra waiting time, just update your links to go directly to the new URL. So instead of linking to `/updates`, you would link straight to `/status`. This small change can make your site feel much snappier to your visitors."
+	},
+	"AvoidResourceRedirects": {
+		"message": "Are resource redirects used?"
+	},
+	"AvoidResourceRedirectsSummary": {
+		"message": "To keep your website loading quickly, avoid using URLs that redirect to other URLs for loading page resources like CSS files. For example, if you link to a CSS file at `example.com/design.css` but it redirects to `www.example.com/design.css`, this redirection will cause a delay in loading the file. To speed things up, just link directly to the final destination (`www.example.com/design.css`). This way, you cut out the unnecessary detour and help your pages load faster."
+	},
+	"AvoidRedirectChains": {
+		"message": "Are redirect chains used?"
+	},
+	"AvoidRedirectChainsSummary": {
+		"message": "If you have to use a redirect on your website, try to keep it to just one redirect instead of a series of them. For example, a common but unoptimized setup might have a URL go from `http://example.com` to `https://example.com` and then finally to `https://www.example.com`. These extra steps, known as redirect chains, can really slow down how fast your page loads. They can even discourage search engines from following through to the final URL, which might hurt your search rankings.\n\n To keep things speedy and efficient, you should tweak your server's redirect rules to either eliminate unnecessary redirects or at least reduce them to a single redirect whenever possible. This way, both your users and search bots can get to where they need to go much quicker."
+	},
+	"Title": {
+		"message": "Title"
+	},
+	"FirstH1": {
+		"message": "First H1"
+	},
+	"H1sToFix": {
+		"message": "H1s to fix"
+	},
+	"Length": {
+		"message": "Length"
+	},
+	"PagesWithSameH1": {
+		"message": "Pages with same H1"
+	},
+	"URL": {
+		"message": "URL"
+	},
+	"Description": {
+		"message": "Description"
+	},
+	"CanonicalUrl": {
+		"message": "Canonical URL"
+	},
+	"Issue": {
+		"message": "Issue"
+	},
+	"CanonicalUrlStatus": {
+		"message": "Canonical URL gave status code $1"
+	},
+	"CanonicalUrlRedirects": {
+		"message": "Canonical URL redirects"
+	},
+	"CanonicalUrlNotIndexable": {
+		"message": "Canonical URL not indexable: NOINDEX set"
+	},
+	"CanonicalUrlPointsToCanonicalizedPage": {
+		"message": "Canonical URL points to canonicalized page"
+	},
+	"CanonicalUrlNotPage": {
+		"message": "Canonical URL is not a page"
+	},
+	"CanonicalUrlNotSet": {
+		"message": "Canonical URL not set"
+	},
+	"PagesWithSameTitle": {
+		"message": "Pages with same title"
+	},
+	"PagesWithSameDescription": {
+		"message": "Pages with same descriptions"
+	},
+	"AvoidDuplicatePages": {
+		"message": "Avoid duplicate pages"
+	},
+	"DataUniqueHash": {
+		"message": "Data unique hash"
+	},
+	"DuplicatePages": {
+		"message": "Duplicate pages"
+	},
+	"WordCount": {
+		"message": "Word count"
+	},
+	"MissingAltTags": {
+		"message": "Missing ALT tags"
+	},
+	"ImageUrl": {
+		"message": "Image URL"
+	},
+	"ViewportSetting": {
+		"message": "Viewport setting"
+	},
+	"PluginTags": {
+		"message": "Plugin tags"
+	},
+	"UrlLength": {
+		"message": "URL length"
+	},
+	"Extension": {
+		"message": "Extension"
+	},
+	"UrlParams": {
+		"message": "URL parameters"
+	},
+	"Subfolders": {
+		"message": "Subfolders"
+	},
+	"HtmlErrors": {
+		"message": "HTML errors"
+	},
+	"CssErrors": {
+		"message": "CSS errors"
+	},
+	"JsErrors": {
+		"message": "JS errors"
+	},
+	"setNotFoundPage": {
+		"message": "'Set a 'not found' page"
+	},
+	"RedirectTarget": {
+		"message": "Redirect target"
+	},
+	"HttpResponseCode": {
+		"message": "HTTP response code"
+	},
+	"BrokenLinks": {
+		"message": "Broken links"
+	},
+	"BrokenResources": {
+		"message": "Broken resources"
+	},
+	"AddRobotFiles": {
+		"message": "Add robots.txt files"
+	},
+	"SpecifySitemapLocations": {
+		"message": "Specify sitemap locations"
+	},
+	"MetaRedirectTarget": {
+		"message": "Meta redirect target"
+	},
+	"AvoidTemporaryRedirects": {
+		"message": "Avoid temporary redirects"
+	},
+	"RedirectStatus": {
+		"message": "Redirect status"
+	},
+	"CompressSentData": {
+		"message": "Compress sent data"
+	},
+	"ContentEncoding": {
+		"message": "Content-Encoding"
+	},
+	"Minified": {
+		"message": "Minified"
+	},
+	"MinifyFiles": {
+		"message": "Minify files"
+	},
+	"AvoidInlineSourcemaps": {
+		"message": "Avoid inline sourcemaps"
+	},
+	"SourcemapFree": {
+		"message": "Sourcemap free"
+	},
+	"AvoidInlineJavaScript": {
+		"message": "Avoid inline JavaScript"
+	},
+	"InlineJsChars": {
+		"message": "Inline JS chars"
+	},
+	"DeferJavaScriptLoading": {
+		"message": "Defer JavaScript loading"
+	},
+	"BlockingJsFiles": {
+		"message": "Blocking JS files"
+	},
+	"BlockingJavaScriptUrl": {
+		"message": "BlockingJavaScriptUrl"
+	},
+	"AvoidInlineCss": {
+		"message": "Avoid inline CSS"
+	},
+	"InlineCssBytes": {
+		"message": "Inline CSS bytes"
+	},
+	"CssImports": {
+		"message": "CSS imports"
+	},
+	"RedirectingOutlinks": {
+		"message": "Redirecting outlinks"
+	},
+	"outlinks": {
+		"message": "outlinks"
+	},
+	"RedirectingOutlink": {
+		"message": "Redirecting outlink"
+	},
+	"RedirectingResources": {
+		"message": "Redirecting resources"
+	},
+	"ChainLength": {
+		"message": "Chain length"
+	},
+	"AllowCaching": {
+		"message": "Allow caching"
+	},
+	"CacheDisablingOptions": {
+		"message": "Cache disabling options"
+	},
+	"CacheTimeUsed": {
+		"message": "Cache time used"
+	},
+	"CachedTimeInMins": {
+		"message": "Cached time (mins)"
+	},
+	"DataUniqueHashValue": {
+		"message": "Data uniqueHashValue"
+	},
+	"DuplicateResources": {
+		"message": "Duplicate resources"
+	},
+	"AvoidMixedContentErrors": {
+		"message": "Avoid mixed content errors"
+	},
+	"InsecureResources": {
+		"message": "Insecure resources"
+	},
+	"InsecureResource": {
+		"message": "Insecure resource"
+	},
+	"SecurePasswordsFields": {
+		"message": "Secure passwords fields"
+	},
+	"HttpsPage": {
+		"message": "HTTPS page"
+	},
+	"PostAction": {
+		"message": "POST action"
+	},
+	"HttpsAction": {
+		"message": "HTTPS action"
+	},
+	"EnableHsts": {
+		"message": "Enable HSTS"
+	},
+	"HstsMaxAge": {
+		"message": "HSTS max age"
+	},
+	"IncludeSubDomains": {
+		"message": "include subdomains"
+	},
+	"AllowHstsPreload": {
+		"message": "Allow HSTS preload"
+	},
+	"PreloadSet": {
+		"message": "Preload set"
+	},
+	"HstsExpiry": {
+		"message": "HSTS expiry"
+	},
+	"SpecifyMimeTypes": {
+		"message": "Specify MIME types"
+	},
+	"ContentTypeHeader": {
+		"message": "Content-Type header"
+	},
+	"DisableContentSniffing": {
+		"message": "Disable content sniffing"
+	},
+	"XContentTypeOptionsHeader": {
+		"message": "X-Content-Type-Options header"
+	},
+	"RestrictIframeUsage": {
+		"message": "Restrict iframe usage"
+	},
+	"xFrameOptions": {
+		"message": "x-frame-options"
+	},
+	"EnableXssProtection": {
+		"message": "Enable XSS protection"
+	},
+	"XXssProtectionHeader": {
+		"message": "X-XSS-Protection header"
+	},
+	"ServerVersionHeaders": {
+		"message": "Server version headers"
+	},
+	"CrawledUrlsSummary": {
+		"message": "All the URLs that SEO Checker has crawled."
+	},
+	"InternalUrlsLargeSummary": {
+		"message": "These are URLs that belong to the website you're examining. They're part of the same domain and lead you to other pages within the same site."
+	},
+	"ExternalUrlsLargeSummary": {
+		"message": "These are URLs that take you outside of the site you're checking. They could be links to other websites or resources like images and scripts that are hosted on different domains."
+	},
+	"SuccessStatus": {
+		"message": "2xx status code - Success"
+	},
+	"SuccessStatusSummary": {
+		"message": "All URLs that returned a 'success' status code (status codes between 200 and 299)."
+	},
+	"RedirectionStatus": {
+		"message": "3xx status code - Redirection"
+	},
+	"RedirectionStatusSummary": {
+		"message": "All URLs that caused the browser to perform a redirect (status codes between 300 and 399)."
+	},
+	"ClientErrorStatus": {
+		"message": "4xx status code - Client Error"
+	},
+	"ClientErrorStatusSummary": {
+		"message": "All URLs that returned a \"client error\" status code (status codes between 400 and 499). The most common of these is a 404 error code when a page could not be found at the requested URL."
+	},
+	"ServerErrorStatus": {
+		"message": "5xx status code - Server Error"
+	},
+	"ServerErrorStatusSummary": {
+		"message": "All URLs that returned a \"server error\" status code (status codes between 500 and 599). This typically means the backend server code encountered an error."
+	},
+	"ConnectionErrors": {
+		"message": "Connection Errors"
+	},
+	"ConnectionErrorSummary": {
+		"message": "All URLs that could not be connected to. This includes any URLs that took too long to load, URLs with redirect chains that were beyond the maximum length and URLs that resulted in DNS address lookup errors."
+	},
+	"BrokenUrlSummary": {
+		"message": "URLs that gave a 4xx status, a 5xx status or could not be connected to."
+	},
+	"PagesWithoutCanonicalTag": {
+		"message": "Pages without canonical tag"
+	},
+	"Canonicalization": {
+		"message": "Canonicalization"
+	},
+	"PagesWithoutCanonicalTagSummary": {
+		"message": "Every page that does not specify a `rel=\"canonical\"` URL."
+	},
+	"PagesWithCanonicalTag": {
+		"message": "Pages with canonical tag"
+	},
+	"PagesWithCanonicalTagSummary": {
+		"message": "Every page that specifies a `rel=\"canonical\"` URL."
+	},
+	"CanonicalisedPages": {
+		"message": "Canonicalised pages"
+	},
+	"CanonicalisedPageSummary": {
+		"message": "Every page that indicates a URL different from its own is the canonical version with its `rel=\"canonical\"` URL."
+	},
+	"SelfCanonicalPages": {
+		"message": "Self-canonical pages"
+	},
+	"SelfCanonicalPageSummary": {
+		"message": "Every page that indicates its own URL is canonical with its `rel=\"canonical\"` URL."
+	},
+	"IndexablePages": {
+		"message": "Indexable Pages"
+	},
+	"IndexablePageSummary": {
+		"message": "Pages that are likely to be indexed by search engines. These are pages that 1) do not have a `noindex` meta tag and 2) are either missing a `rel=\"canonical\"` tag or have a `rel=\"canonical\"` tag with a URL that points to itself."
+	},
+	"NonIndexablePages": {
+		"message": "Non-indexable Pages"
+	},
+	"NonIndexablePageSummary": {
+		"message": "Pages that might not be indexed by search engines. Either these pages have a `noindex` meta tag set or they have a `rel=\"canonical\"` tag that references a URL different to its own."
+	},
+	"NoindexPageLargeSummary": {
+		"message": "Every page that indicates it should not be listed in search results because it contains a `noindex` meta tag. Note that pages blocked by a robots.txt file can still appear in search results if other pages link to it."
+	},
+	"BlockSearchEngineIndexing": {
+		"message": "Block search indexing with meta tags"
+	},
+	"RedirectChain": {
+		"message": "Redirect chain"
+	},
+	"UrlInRedirectPath": {
+		"message": "URL in redirect path"
+	},
+	"PathPosition": {
+		"message": "Path position"
+	},
+	"Headers": {
+		"message": "Headers"
+	},
+	"HeaderName": {
+		"message": "Header name"
+	},
+	"Value": {
+		"message": "Value"
+	},
+	"Show": {
+		"message": "Show"
+	},
+	"redirects": {
+		"message": "Redirects"
+	},
+	"hidden": {
+		"message": "hidden"
+	},
+	"PrintOrSavePdf": {
+		"message": "Print or Save as PDF"
+	},
+	"NoneFound": {
+		"message": "None Found"
+	},
+	"ErrorSiteNotReachable": {
+		"message": "Error: Website is not reachable"
+	},
+	"CrawlerSettings": {
+		"message": "Crawler Settings"
+	},
+	"NoFileSelected": {
+		"message": "No File was selected!"
+	},
+	"ExportDataToJsonFile": {
+		"message": "Export Crawl to JSON"
+	},
+	"ImportPreviousData": {
+		"message": "Import Crawl from JSON"
+	},
+	"retryConnectMessage": {
+		"message": "Unable to connect to $1. Retrying in $2 seconds..."
+	},
+	"CrawlingStoppedDueToNetworkError": {
+		"message": "Crawling has stopped due to network error."
+	},
+	"ImageAnalysis": {
+		"message": "IMAGE ANALYSIS"
+	},
+	"AreImagesCompressed": {
+		"message": "Are images compressed?"
+	},
+	"AreImagesCompressedSummary": {
+		"message": "This will check whether the images have been compressed and will show the users those images at the top that have not been compressed."
+	},
+	"AreResolutionsTooHigh": {
+		"message": "Are resolutions too high?"
+	},
+	"AreResolutionsTooHighSummary": {
+		"message": "This will check whether the image has a height greater than 1440 pixels, or a width greater than 2560 pixels. If any image is larger than this then it will show the image at the top of the list."
+	},
+	"AreFileSizesTooLarge": {
+		"message": "Are file sizes too large?"
+	},
+	"AreFileSizesTooLargeSummary": {
+		"message": "This will check the size of the image file. If the size is more than 200 KB, then the check has failed and these images should be shown at the top."
+	},
+	"Compressed": {
+		"message": "Compressed"
+	},
+	"ResolutionTooHigh": {
+		"message": "Resolution Too High"
+	},
+	"FileSizeTooLarge": {
+		"message": "File Size Too Large"
+	},
+	"CrawlingPaused": {
+		"message": "Crawling paused"
+	},
+	"PauseCrawl": {
+		"message": "Pause Crawl"
+	},
+	"ContinueCrawl": {
+		"message": "Continue Crawl"
+	}
+}
